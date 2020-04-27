@@ -1,0 +1,23 @@
+- [x] 手写快速排序
+- [x] STL快速排序sort()
+- [x] 二分查找
+- [x] 使用OJ（不用leetcode，leetcode基于样例）
+- [ ] 输出输入格式
+- [x] string操作（c++）
+- [ ] 手写归并
+- [ ] 二叉树
+- [ ] STL（容器）
+- [ ] STL查找算法
+- [x] unordered_map
+- [ ] set
+- [ ] vector
+- [ ] list
+- [ ] 堆栈push pop使用逻辑
+- [ ] 队列push pop使用逻辑
+- [ ] 二叉树-3种遍历（dfs和bfs）
+- [ ] 二叉树-建树
+- [ ] !!! deque
+- [ ] !!! stack
+- [ ] queue
+- [ ] priority_queue
+
