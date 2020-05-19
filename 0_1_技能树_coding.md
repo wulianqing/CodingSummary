@@ -12,6 +12,8 @@
 - [ ] set
 - [ ] vector
 - [ ] list
+- [ ] 优先队列(priority_queue: std的最大/小堆)
+- [ ] 最大最小堆(用来找前n个最大最小)
 - [ ] 堆栈push pop使用逻辑
 - [ ] 队列push pop使用逻辑
 - [ ] 二叉树-3种遍历（dfs和bfs）

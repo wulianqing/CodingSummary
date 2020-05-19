@@ -27,7 +27,7 @@
 6. **插入元素**：`vec.insert(vec.begin()+i,a);`  在第i+1个元素前面插入a
     比如`vec.begin()+3, a`表示在vec[3]前插a
     
-7. **删除元素**：`vec.erase(vec.begin()+2);`删除第3个元素 	 
+7. **删除元素**：`vec.erase(vec.begin()+3);`删除vec[3]元素 	 
     比如`vec.begin()+3`, 则删除vec[3]::
     `vec.erase(vec.begin()+i,vec.end()+j);`删除区间[i,j);区间从0开始  注意 左闭右开	
     //与上面是统一的第j个=vec[j-1]
