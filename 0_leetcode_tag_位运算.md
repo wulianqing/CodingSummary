@@ -61,5 +61,17 @@
   }
   ```
 
-  
+- offer 16.快速幂 
 
+  ```c++
+  //quick product
+  while(exp_num != 1){
+    if((exp_num & 1) == 1)
+      ans *= base_num; //指数为奇数,需要单独先保存在ans
+    base_num *= base_num;       
+  	exp_num /= 2;
+  }
+  ans *= base_num;
+  ```
+
+  

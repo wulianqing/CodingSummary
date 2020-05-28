@@ -29,7 +29,7 @@
     
 7. **删除元素**：`vec.erase(vec.begin()+3);`删除vec[3]元素 	 
     比如`vec.begin()+3`, 则删除vec[3]::
-    `vec.erase(vec.begin()+i,vec.end()+j);`删除区间[i,j);区间从0开始  注意 左闭右开	
+    `vec.erase(vec.begin()+i,vec.begin()+j);`删除区间[i,j);区间从0开始  注意 左闭右开	
     //与上面是统一的第j个=vec[j-1]
   
 8. **向量大小**：`vec.size();`

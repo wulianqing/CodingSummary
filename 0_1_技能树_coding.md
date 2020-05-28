@@ -2,24 +2,24 @@
 - [x] STL快速排序sort()
 - [x] 二分查找
 - [x] 使用OJ（不用leetcode，leetcode基于样例）
-- [ ] 输出输入格式
+- [x] 输出输入格式
 - [x] string操作（c++）
 - [ ] 手写归并
-- [ ] 二叉树
-- [ ] STL（容器）
-- [ ] STL查找算法
+- [x] 二叉树
+- [x] STL（容器）
+- [x] STL查找算法
 - [x] unordered_map
 - [ ] set
-- [ ] vector
-- [ ] list
-- [ ] 优先队列(priority_queue: std的最大/小堆)
-- [ ] 最大最小堆(用来找前n个最大最小)
-- [ ] 堆栈push pop使用逻辑
-- [ ] 队列push pop使用逻辑
-- [ ] 二叉树-3种遍历（dfs和bfs）
-- [ ] 二叉树-建树
+- [x] vector
+- [x] list
+- [x] 优先队列(priority_queue: std的最大/小堆)
+- [x] 最大最小堆(用来找前n个最大最小)
+- [x] 堆栈push pop使用逻辑
+- [x] 队列push pop使用逻辑
+- [x] 二叉树-3种遍历（dfs和bfs）
+- [x] 二叉树-建树
 - [ ] !!! deque
-- [ ] !!! stack
-- [ ] queue
-- [ ] priority_queue
+- [x] !!! stack
+- [x] queue
+- [x] priority_queue
 

@@ -114,6 +114,8 @@ string
    				//string -> char*使用c_str; char* -> int使用atoi
    				string a = "1234";
       	 		int b = atoi(a.c_str()); //b:1234
+   				
+   				好像可以直接stoi(a)
    		
    
    ```
