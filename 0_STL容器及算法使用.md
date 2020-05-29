@@ -18,6 +18,18 @@
 
   - set
 
+    ```c++
+    #include<set>
+    set<int> my_set;
+    my_set.begin();
+    my_set.end();
+    my_set.count(x);//x的个数
+    my_set.erase(it);//iterator
+    my_set.erase(x);//删除值为x
+    my_set.erase(first,second);//元素[first,second)
+    
+    ```
+
   - Multi_set
 
   - Map
