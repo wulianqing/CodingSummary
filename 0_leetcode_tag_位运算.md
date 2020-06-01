@@ -74,4 +74,32 @@
   ans *= base_num;
   ```
 
+- offer 56-I.  数组中有2个只出现1次的数字 其他均为2次
+
+  ```c++
+  class Solution {
+  public:
+      vector<int> singleNumbers(vector<int>& nums) {
+          int mixed = 0;
+          for(int num:nums){
+              mixed ^= num;
+          }
+          int mask = 1;
+        	//注意&的运算优先级低于==,要加()
+          while((mixed & mask) == 0)
+            mask<<=1;
+          int first_elem = 0;
+          int second_elem = 0;
+          for(int num:nums){
+              if(mask & num)
+                  first_elem ^= num;
+              else
+                  second_elem ^= num;
+          }
+          return vector<int>{first_elem,second_elem};
+      }
+  };
+  
+  ```
+
   

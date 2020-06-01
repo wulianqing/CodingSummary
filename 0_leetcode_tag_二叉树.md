@@ -49,7 +49,7 @@
     };
     ```
 
-  - offer26. 树的子结构
+  - offer26. 树的子结构 [思想impotant!]
   
     ```c++
     TreeNode* A,B;
