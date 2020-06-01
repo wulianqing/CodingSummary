@@ -12,7 +12,25 @@
 	}
 	```
 
+- offer 65. 位运算两数相加
 
+  ```c++
+  class Solution {
+  public:
+      int add(int a, int b) {
+          int ans;
+          int carry;  
+          //其实是把ans和carry转换成a和b相加缩小问题范围
+          while(b!=0){
+              ans = a ^ b;
+              carry = (unsigned int)(a & b)<<1;   
+              a = ans;
+              b = carry;
+          }
+          return a;
+      }
+  };
+  ```
 
 - 美团2020第2题. 汉明距离(同理)
 
