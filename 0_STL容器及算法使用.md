@@ -56,16 +56,17 @@
   
   - queue
   
-  ```c++
+  	```c++
     front();
     back();
     push();
     pop();
-    ```
+  	```
   
   - priority_queue(最大/小堆)
   
     ```c++
+    #include<queue>
     priority_queue<int,vector<int>,less<int>> q;最大堆（默认为最大堆）
     priority_queue<int,vector<int>,greater<int>> q;最小堆
       
@@ -73,7 +74,13 @@
     push();
     top();
     pop();
-    ```
   
+    struct cmp{
+      bool operator()(string a,string b){
+        return a+b > b+a;//e.g. s.t.30 < 3, a=30,b=3;a+b=303,b+a=330 注意>才是小根堆
+    };
+    priority_queue<string,vector<string>,cmp> pq;
+    ```
+    
     
 
