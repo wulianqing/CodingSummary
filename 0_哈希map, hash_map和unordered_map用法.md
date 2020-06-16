@@ -25,12 +25,12 @@
       3. 元素查找（find返回的是一个iterator，不管查找/删除都是对iterator操作）
 
       ```c++
-      map<int ,string >::iterator l_it;; 
+      map<int ,string >::iterator l_it;
       l_it=maplive.find(100);
       if(l_it==maplive.end()){
-        return false;
+        return false; 
       }
-      else return l_it;
+      else return l_it; 
       ```
 
       4. 元素删除
