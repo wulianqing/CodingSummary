@@ -1,14 +1,15 @@
 - [x] 手写快速排序
 - [x] STL快速排序sort()
 - [x] 二分查找
-- [x] 使用OJ（不用leetcode，leetcode基于样例）
+- [x] OJ（不用leetcode，leetcode基于样例）
 - [x] 输出输入格式
 - [x] string操作（c++）
 - [ ] 手写归并
 - [x] 二叉树
 - [x] STL（容器）
+- [ ] 
 - [x] STL查找算法
-- [x] unordered_map
+- [x] map
 - [x] set
 - [x] vector
 - [x] list
@@ -23,3 +24,45 @@
 - [x] queue
 - [x] priority_queue
 
+
+
+- [ ] STL常用数据结构的底层原理
+- [ ] 线程、进程、协程
+- [ ] hash再讲好一点
+- [ ] array list底层原理
+- [ ] 二叉树, 2-3树, 红黑树, B树, B+树 区别, 特性, 优缺点, 场景
+- [ ] 设计模式
+- [ ] 内存管理
+- [ ] 内存分布、linux栈的大小
+- [ ]  函数调用底层是如何实现的
+- [ ] essential c++
+- [ ] c++ primer
+- [ ] c++多态原理
+- [ ] c++ 11(智能指针，lambda，右值)
+- [ ] gcc
+- [ ] gdb: core dump
+- [ ] shell查询（awk、sed还有……）
+- [ ] free, top
+- [ ] UDP(场景: 游戏
+- [ ] 游戏中用什么协议进行传输, 为什么
+- [ ] 如何优化延迟
+- [ ] 如何让单位时间的数据量减少（减小网络负担）
+- [ ] linux指令
+- [ ] linux 僵尸进程
+- [ ] mysql
+- [ ] 数据库: 关系型数据库与非关系型数据库, 大数据的查询
+- [ ] innodb和MyISAM 优缺点 区别 
+- [ ] 索引优化
+- [ ] redis
+- [ ] 讲水印项目
+- [ ] 常见场景题
+- [ ] http 过程
+- [ ] https
+- [ ] 共享内存 底层实现
+- [ ] 消息队列 实现, 怎么查看
+- [ ] 线程池
+- [ ] 线程是否安全
+- [ ] 常见算法: 堆排序、栈实现队列、反转链表
+- [ ] 网络编程: LT, ET, epoll,poll, select
+- [ ] TCP黏包
+- [ ] 后台开发的认识, 结构, 业务作用
