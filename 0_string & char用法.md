@@ -103,7 +103,7 @@ string
    	5. 其他
        1. substr
     	   		string s="abcdefg";
-   				string s1=s.substr(1,3);   //bcd
+   				string s1=s.substr(1,3);   //bcd,第一个参数表示起始位置, 第二个参数表示长度
    				string s2=s.substr(4);     //efg，(s[4],s[end])
    		2. int和string之间的转换
          	//int -> string 很容易实现，to_string()即可
