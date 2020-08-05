@@ -105,9 +105,10 @@
           int mask = 1;
         	//注意&的运算优先级低于==,要加()
           while((mixed & mask) == 0)
-            mask<<=1;
+            mask<<=1;//找低位1,即两个位不同的位
           int first_elem = 0;
           int second_elem = 0;
+        	//从头再来一遍,分开
           for(int num:nums){
               if(mask & num)
                   first_elem ^= num;
@@ -118,6 +119,6 @@
       }
   };
   
-  ```
-
+```
+  
   
